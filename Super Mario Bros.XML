@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gavpi>
+  <Database />
+  <Action_Sequence name="Keyboard Enter" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Enter" />
+    <Action type="Wait" value="100" />
+    <Action type="KeyUp" value="Enter" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard S" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="500" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard Right" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Right" />
+    <Action type="Wait" value="1000" />
+    <Action type="KeyUp" value="Right" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard Right (Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Right" />
+    <Action type="Wait" value="200" />
+    <Action type="KeyUp" value="Right" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard Right (Super Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Right" />
+    <Action type="Wait" value="100" />
+    <Action type="KeyUp" value="Right" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard Left" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Left" />
+    <Action type="Wait" value="1000" />
+    <Action type="KeyUp" value="Left" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard Left (Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Left" />
+    <Action type="Wait" value="200" />
+    <Action type="KeyUp" value="Left" />
+  </Action_Sequence>
+  <Action_Sequence name="Keyboard Left (Super Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Left" />
+    <Action type="Wait" value="100" />
+    <Action type="KeyUp" value="Left" />
+  </Action_Sequence>
+  <Action_Sequence name="Right Up" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Right" />
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="1000" />
+    <Action type="KeyUp" value="Right" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="Right Up (Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Right" />
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="200" />
+    <Action type="KeyUp" value="Right" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="Right Up (Super Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Right" />
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="100" />
+    <Action type="KeyUp" value="Right" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="Left Up" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Left" />
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="1000" />
+    <Action type="KeyUp" value="Left" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="Left Up (Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Left" />
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="200" />
+    <Action type="KeyUp" value="Left" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="Left Up (Super Short)" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Left" />
+    <Action type="KeyDown" value="S" />
+    <Action type="Wait" value="100" />
+    <Action type="KeyUp" value="Left" />
+    <Action type="KeyUp" value="S" />
+  </Action_Sequence>
+  <Trigger name="start" value="start" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Enter" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="left" value="left" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Left" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="light left" value="light left" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Left (Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="super left" value="super left" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Left (Super Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="right" value="right" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Right" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="light right" value="light right" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Right (Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="super right" value="super right" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard Right (Super Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="jump" value="jump" type="Phrase" comment="">
+    <Trigger_Event name="Keyboard S" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="rump" value="rump" type="Phrase" comment="">
+    <Trigger_Event name="Right Up" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="light rump" value="light rump" type="Phrase" comment="">
+    <Trigger_Event name="Right Up (Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="super rump" value="super rump" type="Phrase" comment="">
+    <Trigger_Event name="Right Up (Super Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="lump" value="lump" type="Phrase" comment="">
+    <Trigger_Event name="Left Up" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="light lump" value="light lump" type="Phrase" comment="">
+    <Trigger_Event name="Left Up (Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="super lump" value="super lump" type="Phrase" comment="">
+    <Trigger_Event name="Left Up (Super Short)" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+</gavpi>
