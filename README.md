@@ -59,3 +59,7 @@ I have prepared the following commands in the profile. These are taken over from
   Holds left and A for 200 milliseconds.
 - *super lump*  
   Holds left and A for 100 milliseconds.
+
+## QOL upgrade
+
+To stay sane, I suggest activating the Infinite Lives cheat (`SXIOPO`). This is a Game Genie cheat. It can be activated from Tools > Cheats.
